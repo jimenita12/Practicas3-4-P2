@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registro de Alumnos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Alumnos</h1>
+        <div id="app">
+            <input type="text" id="nombre" placeholder="Nombre del alumno">
+            <input type="number" id="calificacion" placeholder="Calificación">
+            <button id="registrar">Registrar</button>
+            <h2>Alumnos Aprobados:</h2>
+            <ul id="aprobados"></ul>
+            <h2>Alumnos Reprobados:</h2>
+            <ul id="reprobados"></ul>
+        </div>
+        <div id="errores">
+            <p id="mensaje"></p>
+        </div>
+    </div>
+    <script type="module" src="js/App.js"></script>
+</body>
+</html>

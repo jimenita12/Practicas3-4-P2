@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Compras</h1>
+        <div id="app">
+            <input type="text" id="nombre" placeholder="Nombre del producto">
+            <input type="number" id="precio" placeholder="Precio">
+            <button id="agregar">Agregar Producto</button>
+            <input type="text" id="claveEliminar" placeholder="Clave del producto a eliminar">
+            <button id="eliminar">Eliminar Producto</button>
+            <h2>Productos:</h2>
+            <ul id="productos"></ul>
+            <p>Total de Compra: <span id="totalCompra">0.00</span></p>
+        </div>
+    </div>
+    <script type="module" src="js/App.js"></script>
+</body>
+</html>
